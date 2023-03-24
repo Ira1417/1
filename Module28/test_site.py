@@ -23,7 +23,7 @@ def test_reg_page_correct_reg(driver):
 
 def test_auth_page_correct_phone_and_pass(driver):
     page = AuthPage(driver)
-    page.enter_username("89081187425")
+    page.enter_username("8.......")
     page.enter_pass(CURRECT_PASS)
     page.btn_click()
 
